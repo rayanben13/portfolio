@@ -76,7 +76,7 @@ function ProjectPage() {
                 </p>
 
                 {/* Dots */}
-                <div className="flex gap-3 mt-6 justify-center">
+                <div className="flex gap-3 mt-6 justify-center pb-3">
                     {project.images.map((_, index) => (
                         <button
                             key={index}

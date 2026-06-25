@@ -13,10 +13,14 @@ const navItems = [
 ];
 
 
+
+
 export default function Navbar() {
     const pathname = usePathname();
     const [scrolled, setScrolled] = useState(false);
     const [open, setOpen] = useState(false);
+
+
 
     // scroll effect (glass + shrink)
     useEffect(() => {
@@ -50,23 +54,29 @@ export default function Navbar() {
 
                     {/* Desktop Links */}
                     <div className="hidden md:flex gap-6 relative">
-                        {navItems.map((item) => (
-                            <Link
-                                key={item.name}
-                                href={item.href}
-                                className="relative text-sm text-white/70 hover:text-white transition"
-                            >
-                                {item.name}
+                        {navItems.map((item) => {
+                            const isActive =
+                                item.href === "/"
+                                    ? pathname === "/"
+                                    : pathname.startsWith(item.href);
 
-                                {/* active underline glow */}
-                                {pathname === item.href && (
-                                    <motion.div
-                                        layoutId="underline"
-                                        className="absolute left-0 -bottom-1 h-[2px] w-full bg-white shadow-[0_0_10px_white]"
-                                    />
-                                )}
-                            </Link>
-                        ))}
+                            return (
+                                <Link
+                                    key={item.name}
+                                    href={item.href}
+                                    className="relative text-sm text-white/70 hover:text-white transition"
+                                >
+                                    {item.name}
+
+                                    {isActive && (
+                                        <motion.div
+                                            layoutId="underline"
+                                            className="absolute left-0 -bottom-1 h-[2px] w-full bg-white shadow-[0_0_10px_white]"
+                                        />
+                                    )}
+                                </Link>
+                            );
+                        })}
                     </div>
 
 
