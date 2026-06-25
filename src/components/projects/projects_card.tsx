@@ -5,7 +5,7 @@ import Link from 'next/link';
 function ProjectsCard() {
 
     return (
-        <section id="projects" className="py-6 sm:py-20 relative">
+        <section id="projects" className="py-6 relative">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-10">
                 Projects
             </h2>
