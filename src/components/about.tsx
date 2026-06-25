@@ -6,7 +6,7 @@ export default function About() {
     return (
         <section
             id="about"
-            className="flex items-center justify-center py-10  relative"
+            className="flex items-center justify-center pt-22  relative"
         >
             {/* background glow */}
             <div className="absolute inset-0 -z-10">

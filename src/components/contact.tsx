@@ -54,7 +54,7 @@ export default function Contact() {
     return (
         <section
             id="contact"
-            className="flex flex-col items-center justify-center py-2 sm:py-20 relative max-w-6xl mx-auto px-4"
+            className="flex flex-col items-center justify-center pt-2 sm:pt-20 relative max-w-6xl mx-auto px-4"
         >
             {/* background glow */}
             <div className="absolute inset-0 -z-10">

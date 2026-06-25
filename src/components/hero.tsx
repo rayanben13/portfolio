@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <section
             id="home"
-            className="flex flex-col items-center justify-center relative overflow-hidden px-4 pt-20 sm:pt-18 sm:py-0 min-h-screen"
+            className="flex flex-col items-center justify-center relative overflow-hidden px-4 pt-7 sm:pt-18 sm:py-0 min-h-screen"
         >
             {/* Glow background */}
             <div className="absolute w-[200px] h-[200px] sm:w-[400px] sm:h-[400px] bg-purple-600/30 blur-3xl rounded-full top-20" />
