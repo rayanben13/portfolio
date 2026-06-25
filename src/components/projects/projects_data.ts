@@ -140,42 +140,42 @@ export const projectsData = [
         images: [
             {
                 id: '1',
-                url: '/images/pizzastore/global.png',
+                url: '/images/pizzaStore/global.png',
                 description: 'The immersive e-commerce landing page featuring a full-width interactive hero banner, crisp category filter tags, and high-conversion dynamic call-to-actions.'
             },
             {
                 id: '2',
-                url: '/images/pizzastore/bestSection.png',
+                url: '/images/pizzaStore/bestSection.png',
                 description: 'A curated best-sellers showcase grid designed with clean product cards, real-time pricing updates, and instant visual feedback tags to highlight promotional items.'
             },
             {
                 id: '3',
-                url: '/images/pizzastore/menu.png',
+                url: '/images/pizzaStore/menu.png',
                 description: 'A responsive digital menu grid allowing users to browse through multi-category food items with advanced lazy-loading layout optimization.'
             },
             {
                 id: '4',
-                url: '/images/pizzastore/addToCart.png',
+                url: '/images/pizzaStore/addToCart.png',
                 description: 'An intuitive product detail overlay with quantity adjustment controls, size selectors, and a fast-action "Add to Cart" workflow.'
             },
             {
                 id: '5',
-                url: '/images/pizzastore/yourCard.png',
+                url: '/images/pizzaStore/yourCard.png',
                 description: 'A streamlined slide-out shopping cart sidebar displaying selected items, subtotal summaries, and interactive item removal controls before checkout.'
             },
             {
                 id: '6',
-                url: '/images/pizza/profil.png',
+                url: '/images/pizzaStore/profil.png',
                 description: 'A secure user account dashboard keeping users engaged with their order history tracking, delivery preferences, and profile credentials management.'
             },
             {
                 id: '7',
-                url: '/images/pizzastore/adminCreProduct.png',
+                url: '/images/pizzaStore/adminCreProduct.png',
                 description: 'An advanced administrative product creation form with integrated image upload zones, dynamic price inputs, and real-time validation states.'
             },
             {
                 id: '8',
-                url: '/images/pizzastore/adminCategory.png',
+                url: '/images/pizzaStore/adminCategory.png',
                 description: 'A dedicated content management dashboard giving admins structural control over menu taxonomy, category creation, and list ordering.'
             }
         ],
