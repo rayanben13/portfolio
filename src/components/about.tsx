@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function About() {
     return (
@@ -38,9 +39,9 @@ export default function About() {
                     </p>
 
                     <div className="mt-6">
-                        <button className="w-full sm:w-auto px-6 py-2.5 bg-white text-black rounded-xl hover:scale-105 transition font-medium">
+                        <Link href="/Rayan_Bensalem_CV_FULL_Final.pdf" download className="w-full sm:w-auto px-6 py-2.5 bg-white text-black rounded-xl hover:scale-105 transition font-medium">
                             Download CV
-                        </button>
+                        </Link>
                     </div>
                 </motion.div>
 
